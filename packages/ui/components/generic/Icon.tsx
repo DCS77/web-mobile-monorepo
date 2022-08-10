@@ -1,18 +1,22 @@
 import * as React from 'react';
-import { IconContext, IconType } from 'react-icons';
+import { getStyleSettings, StyleVariant, DEFAULT_STYLE } from '../../src/constants/styles';
+import { CssSize } from '../../src/types/sizes';
 
 interface IIcon {
-  icon: IconType;
-  size?: string;
-  fontSize?: string | number;
+  children: JSX.Element,
+  styleVariant?: StyleVariant;
+  fontSize?: CssSize | number;
   color?: string;
-  title?: string;
+  tooltip?: string;
 }
 
-export const Icon = ({icon, size='20px', fontSize = '20px', color = 'black'}: IIcon) => {
-  return (
-    <IconContext.Provider value={{ style: { fontSize, color }, size }}>
-      <div>{icon}</div>
-    </IconContext.Provider>
-  );
+export const Icon = ({ children, styleVariant, tooltip, ...styleOverride }: IIcon) => {
+  const style = {
+    ...(styleVariant ? getStyleSettings(styleVariant) : DEFAULT_STYLE),
+    ...styleOverride,
+  };
+
+  return <div style={style}>
+    {children}
+  </div>;
 };
