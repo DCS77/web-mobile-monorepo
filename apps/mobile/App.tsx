@@ -25,9 +25,7 @@ import {
   LearnMoreLinks,
 } from 'react-native/Libraries/NewAppScreen';
 
-import IonIcons from 'react-native-vector-icons/Ionicons';
-import EvilIcons from 'react-native-vector-icons/EvilIcons';
-import FontAwesome5Brands from 'react-native-vector-icons/FontAwesome5Pro';
+import {IonIcons, EvilIcons, FontAwesome5Brands} from 'ui/src/icons'
 
 const Section: React.FC<
   PropsWithChildren<{
