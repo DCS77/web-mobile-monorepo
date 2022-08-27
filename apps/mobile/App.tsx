@@ -21,11 +21,13 @@ import {
 
 import {
   Colors,
-  DebugInstructions,
   Header,
   LearnMoreLinks,
-  ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+import IonIcons from 'react-native-vector-icons/Ionicons';
+import EvilIcons from 'react-native-vector-icons/EvilIcons';
+import FontAwesome5Brands from 'react-native-vector-icons/FontAwesome5Pro';
 
 const Section: React.FC<
   PropsWithChildren<{
@@ -75,20 +77,14 @@ const App = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+          <Section title="Icons">
+            <Text>{`Use a variety of icon packages from react-native-vector-icons.\nFor example: `}</Text>
+            <Text>
+              <IonIcons size={20} color='red' name="md-bicycle" />
+              <EvilIcons size={30} color='blue' name="gear" />
+              <FontAwesome5Brands color='orange' size={40} name="instagram" />
+            </Text>
           </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -108,9 +104,6 @@ const styles = StyleSheet.create({
     marginTop: 8,
     fontSize: 18,
     fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
   },
 });
 

@@ -2,10 +2,13 @@
   "name": "web-mobile-monorepo",
   "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "nohoist": ["**/react-native-vector-icons"]
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
