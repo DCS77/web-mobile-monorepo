@@ -1,6 +1,6 @@
 # Web and Mobile App Monorepo
 
-The goal for this repository is to have a working NextJS app and React Native app making use of a shared UI library.
+The goal for this repository is to have a working NextJS app and React Native app making use of a shared UI library, along with various useful features like icons, themes and languages.
 
 ## Current Progress
 
