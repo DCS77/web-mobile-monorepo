@@ -1,0 +1,79 @@
+@font-face {
+    src: url(../../public/fonts/AntDesign.ttf);
+    font-family: "AntDesign";
+}
+
+@font-face {
+    src: url(../../public/fonts/Entypo.ttf);
+    font-family: "Entypo";
+}
+
+@font-face {
+    src: url(../../public/fonts/EvilIcons.ttf);
+    font-family: "EvilIcons";
+}
+
+@font-face {
+    src: url(../../public/fonts/Feather.ttf);
+    font-family: "Feather";
+}
+
+@font-face {
+    src: url(../../public/fonts/FontAwesome.ttf);
+    font-family: "FontAwesome";
+}
+
+@font-face {
+    src: url(../../public/fonts/FontAwesome5_Brands.ttf);
+    font-family: "FontAwesome5_Brands";
+}
+
+@font-face {
+    src: url(../../public/fonts/FontAwesome5_Regular.ttf);
+    font-family: "FontAwesome5_Regular";
+}
+
+@font-face {
+    src: url(../../public/fonts/FontAwesome5_Solid.ttf);
+    font-family: "FontAwesome5_Solid";
+}
+
+@font-face {
+    src: url(../../public/fonts/Fontisto.ttf);
+    font-family: "Fontisto";
+}
+
+@font-face {
+    src: url(../../public/fonts/Foundation.ttf);
+    font-family: "Foundation";
+}
+
+@font-face {
+    src: url(../../public/fonts/Ionicons.ttf);
+    font-family: "Ionicons";
+}
+
+@font-face {
+    src: url(../../public/fonts/MaterialCommunityIcons.ttf);
+    font-family: "MaterialCommunityIcons";
+}
+
+@font-face {
+    src: url(../../public/fonts/MaterialIcons.ttf);
+    font-family: "MaterialIcons";
+}
+
+@font-face {
+    src: url(../../public/fonts/Octicons.ttf);
+    font-family: "Octicons";
+}
+
+@font-face {
+    src: url(../../public/fonts/SimpleLineIcons.ttf);
+    font-family: "SimpleLineIcons";
+}
+
+@font-face {
+    src: url(../../public/fonts/Zocial.ttf);
+    font-family: "Zocial";
+}

@@ -1,0 +1,79 @@
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf);
+    font-family: "AntDesign";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf);
+    font-family: "Entypo";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf);
+    font-family: "EvilIcons";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/Feather.ttf);
+    font-family: "Feather";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf);
+    font-family: "FontAwesome";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf);
+    font-family: "FontAwesome5_Brands";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf);
+    font-family: "FontAwesome5_Regular";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf);
+    font-family: "FontAwesome5_Solid";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf);
+    font-family: "Fontisto";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf);
+    font-family: "Foundation";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf);
+    font-family: "Ionicons";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf);
+    font-family: "MaterialCommunityIcons";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf);
+    font-family: "MaterialIcons";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf);
+    font-family: "Octicons";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf);
+    font-family: "SimpleLineIcons";
+}
+
+@font-face {
+    src: url(../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf);
+    font-family: "Zocial";
+}
